@@ -1,0 +1,9 @@
+path: E:\Alast\code\yolov5-garbage\data\datasets\garbage\images\  # dataset root dir
+
+train: train  # train images (relative to 'path') 118287 images
+val: val  # val images (relative to 'path') 5000 images
+test: test  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+nc: 3  # number of classes
+names: ['bottle','plastic_bag','can']  # class names
